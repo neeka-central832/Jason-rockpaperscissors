@@ -12,8 +12,10 @@ $(".play").click(function() {
   }
    if (randomNumber === 3) {
     $(".computerChoice").text("paper")
-if (".userChoice")
-   }
+if (userChoice==="rock"||userChoice==="paper"||userChoice==="scissors")
+  
+  
+   
 });
 
 
@@ -25,3 +27,5 @@ if (".userChoice")
   // okay great! why btw? glitch should be better, happy to help if you need
   
   // hint: you can use !== to check if something is *not* equal
+  // nice or statement!!!!
+  // alert state for if correct input it will put exp. rock vs paper else incorrect userinput both 
