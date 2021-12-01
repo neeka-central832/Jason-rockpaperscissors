@@ -5,3 +5,8 @@ $(".play").click(function() {
   $(".computerChoice").text(randomNumber); 
   $(".userChoice").text(input);
 });
+
+
+if randomNumber(){
+  
+  ]}
