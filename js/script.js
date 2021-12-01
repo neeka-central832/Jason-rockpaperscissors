@@ -5,14 +5,23 @@ $(".play").click(function() {
   $(".computerChoice").text(randomNumber);
   $(".userChoice").text(input);
   if (randomNumber === 1) {
-    $(".computerChoice").text("Rock")
+    $(".computerChoice").text("rock")
   }
    if (randomNumber === 2) {
-    $(".computerChoice").text("Scissors")
+    $(".computerChoice").text("scissors")
   }
    if (randomNumber === 3) {
-    $(".computerChoice").text("Paper")
-  }
+    $(".computerChoice").text("paper")
+if (".userChoice")
+   }
 });
 
 
+
+//is that all for day 3?
+// you can do day 3 goal 2 or start day 4!
+  // let me know if you get stuck!
+  // trying it out day 3 goal 2 on popcode first 
+  // okay great! why btw? glitch should be better, happy to help if you need
+  
+  // hint: you can use !== to check if something is *not* equal
