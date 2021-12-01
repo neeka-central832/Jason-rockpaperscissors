@@ -3,7 +3,6 @@ $(".play").click(function() {
   let input = $("input").val();
   randomNumber = Math.ceil(Math.random() * 3);
   $(".computerChoice").text(randomNumber);
-  $(".userChoice").text(input);
   if (randomNumber === 1) {
     $(".computerChoice").text("rock")
   }
@@ -12,9 +11,12 @@ $(".play").click(function() {
   }
    if (randomNumber === 3) {
     $(".computerChoice").text("paper")
-if (userChoice==="rock"||userChoice==="paper"||userChoice==="scissors")
-  
-  
+   }
+if (input==="rock"||input==="paper"||input==="scissors"){
+   $(".userChoice").text(input);
+} else {
+  alert("Incorrect Choice Exp. rock,paper or scissors")
+}
    
 });
 
@@ -29,3 +31,11 @@ if (userChoice==="rock"||userChoice==="paper"||userChoice==="scissors")
   // hint: you can use !== to check if something is *not* equal
   // nice or statement!!!!
   // alert state for if correct input it will put exp. rock vs paper else incorrect userinput both 
+     // so how would i do the first choice
+     // yes 
+  // its not printing now 
+// thank you
+// ofc :)
+// i got the alert Incorrect Choice Exp. rock,paper and scissors
+
+// yay!!!!! awesome work today :D

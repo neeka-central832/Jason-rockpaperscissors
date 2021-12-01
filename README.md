@@ -56,7 +56,7 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 
 ### Day 3 Goal 2: Increase user experience (BONUS!)
 
-- [ ] Test for edge cases by ensuring that a result appears if the user does not type an acceptable input
+- [x] Test for edge cases by ensuring that a result appears if the user does not type an acceptable input
 
 ## Day 4
 
