@@ -37,7 +37,10 @@ $(".play").click(function() {
 });
 
 
-//
+//$input.val = "reset"
+//input type = "reset" (".input").text("")
+//clear()
+//let input = $(".input").text("")
 // we did it
 // then wouldnt we add else if print(you lose)
 //is that all for day 3?
