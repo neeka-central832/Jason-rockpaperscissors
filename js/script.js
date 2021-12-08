@@ -37,17 +37,6 @@ $("input").val("");
 });
 
 
-// why compound conditionals are awesome!!!!
-// if (
-//     (input === "rock" && comp === "scissors") ) {
-//    $(".result").text("You win!");
-// } else if(input === "paper" && comp === "rock") {
-//    $(".result").text("You win!");
-// } else if (input === "scissors" && comp === "paper") {
-//    $(".result").text("You win!");
-// } else if ()
-
-
 // I think it went really good
 // yeah I think I need more practice but for the most part I got it
 //educated guess?
