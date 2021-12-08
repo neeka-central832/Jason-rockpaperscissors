@@ -10,17 +10,26 @@ $(".play").click(function() {
   }
    if (randomNumber === 2) {
     $(".computerChoice").text("scissors")
-  }
+  comp = "scissors";
+   }
    if (randomNumber === 3) {
     $(".computerChoice").text("paper")
+     comp = "paper";
    }
+
 if (input==="rock"||input==="paper"||input==="scissors"){
    $(".userChoice").text(input);
 } else {
   alert("Incorrect Choice Exp. rock,paper or scissors")
 }
+  if(input === comp) {
+      $(".result").text("There's a tie!");
+  } else if(input === "rock" && comp === "scissors"||input === "paper"&& comp==="rock"|| input) {
+      $(".result").text("You win!");
+  }
+
   
-   
+  
 });
 
 
@@ -42,3 +51,4 @@ if (input==="rock"||input==="paper"||input==="scissors"){
 // i got the alert Incorrect Choice Exp. rock,paper and scissors
 
 // yay!!!!! awesome work today :D
+// i tied a ai 
