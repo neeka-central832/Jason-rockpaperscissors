@@ -1,10 +1,12 @@
 let randomNumber = 0;
 $(".play").click(function() {
   let input = $("input").val();
+  let comp;
   randomNumber = Math.ceil(Math.random() * 3);
   $(".computerChoice").text(randomNumber);
   if (randomNumber === 1) {
     $(".computerChoice").text("rock")
+    comp = "rock";
   }
    if (randomNumber === 2) {
     $(".computerChoice").text("scissors")
@@ -17,6 +19,7 @@ if (input==="rock"||input==="paper"||input==="scissors"){
 } else {
   alert("Incorrect Choice Exp. rock,paper or scissors")
 }
+  
    
 });
 
