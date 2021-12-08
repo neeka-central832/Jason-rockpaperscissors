@@ -33,11 +33,31 @@ $(".play").click(function() {
   } else {
     $(".result").text("You lost ;(");
   }
-
+$("input").val("");
 });
 
 
-//$input.val = "reset"
+// why compound conditionals are awesome!!!!
+// if (
+//     (input === "rock" && comp === "scissors") ) {
+//    $(".result").text("You win!");
+// } else if(input === "paper" && comp === "rock") {
+//    $(".result").text("You win!");
+// } else if (input === "scissors" && comp === "paper") {
+//    $(".result").text("You win!");
+// } else if ()
+
+
+// I think it went really good
+// yeah I think I need more practice but for the most part I got it
+//educated guess?
+// yes 
+// yes it does 
+// yes i understand the subject 
+// most fun was when i lost the ai
+// i totally knew that was gonna work totally
+// wait it works dont change it try it out
+//input.val = "reset"
 //input type = "reset" (".input").text("")
 //clear()
 //let input = $(".input").text("")

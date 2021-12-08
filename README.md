@@ -69,7 +69,7 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 ### Day 4 Goal 2: Increase user experience (BONUS!)
 
 - [x] Test that your game performs correctly in case of a tie
-- [ ] Clear the input value once a result is displayed so your game is ready to play again
+- [x] Clear the input value once a result is displayed so your game is ready to play again
 
 #### Wrap
 
